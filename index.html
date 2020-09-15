@@ -1,185 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="Author" content="Rahul Ghosh" />
-    <meta name="Reserved" content="14/9/2020" />
-    <meta http-equiv="X_-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Email template</title>
-  </head>
-  <style>
-    /* CSS Internal Style */
-    * {
-      box-sizing: border-box;
-    }
 
-    body {
-      margin: 0px;
-      padding: 0px;
-      background-color: #efefef;
-    }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Author" content="Rahul Ghosh" />
+  <meta name="Reserved" content="14/9/2020" />
+  <meta http-equiv="X_-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email template</title>
+</head>
+<style>
+  /* CSS Internal Style */
+  * {
+    box-sizing: border-box;
+  }
 
-    td {
-      padding: 0px;
-    }
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #efefef;
+  }
 
-    img {
-      padding: 0px;
-      display: inline-block;
-    }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-      margin: 0;
-    }
+  td {
+    padding: 0px;
+  }
 
-    a {
-      text-decoration: none;
-      color: #000;
-      font-weight: bold;
-    }
+  img {
+    padding: 0px;
+    display: inline-block;
+  }
 
-    button {
-      margin-top: 15px;
-      padding: 10px;
-      background-color: #f0a021;
-      border: 1px solid #f0a021;
-      border-radius: 10px;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
 
-    /* Classes */
-    .wrapper {
-      width: 100%;
-      table-layout: fixed;
-      padding-bottom: 40px;
-      background-color: #dbdbdb;
-    }
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
 
-    .webkit {
-      margin: 0 auto;
-      max-width: 600px;
-      background-color: #ffffff;
-    }
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f0a021;
+    border: 1px solid #f0a021;
+    border-radius: 10px;
+  }
 
-    .outer {
-      width: 100%;
-      max-width: 600px;
-      font-family: sans-serif;
-    }
-    .header-row {
-      background-color: #fbf3c1;
-      background: linear-gradient(
-        90deg,
+  /* Classes */
+  .wrapper {
+    width: 100%;
+    table-layout: fixed;
+    padding-bottom: 40px;
+    background-color: #dbdbdb;
+  }
+
+  .webkit {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #ffffff;
+  }
+
+  .outer {
+    width: 100%;
+    max-width: 600px;
+    font-family: sans-serif;
+  }
+
+  .header-row {
+    background-color: #fbf3c1;
+    background: linear-gradient(90deg,
         rgba(251, 243, 193, 1) 5%,
         rgba(252, 255, 244, 1) 50%,
-        rgba(248, 216, 69, 1) 100%
-      );
-    }
+        rgba(248, 216, 69, 1) 100%);
+  }
 
-    .percentlogo {
-      font-style: italic;
-      font-weight: bold;
-      font-size: 150px;
-      color: #e2ad1b;
-      margin-top: 200px;
-      text-shadow: 2px 2px #000;
-    }
+  .percentlogo {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150px;
+    color: #e2ad1b;
+    margin-top: 200px;
+    text-shadow: 2px 2px #000;
+  }
 
-    .sum_classic {
-      text-shadow: 1px 1px #000;
-      font-size: 18px;
-      font-weight: bolder;
-      color: #e2ad1b;
-    }
-  </style>
+  .sum_classic {
+    text-shadow: 1px 1px #000;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #e2ad1b;
+  }
 
-  <body>
-    <main class="wrapper">
-      <div class="webkit">
-        <div class="outer">
-          <!-- Main table start here -->
-          <table style="border-collapse: collapse; width: 100%">
-            <!-- Header Row -->
-            <tr>
-              <td class="header-row">
-                <table style="border-collapse: collapse; width: 100%">
-                  <tr>
-                    <td
-                      style="
+  /* Content part */
+  .content-wrapper {
+    background-color: rgb(228, 224, 224);
+  }
+
+  .content-wrapper h2 {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    color: #000;
+  }
+
+  .content-wrapper p {
+    line-height: 20px;
+    padding: 15px 5px 10px 15px;
+    color: rgb(90, 28, 28);
+  }
+
+  .content-wrapper a {
+    padding: 10px 5px 10px 15px;
+    color: rgb(34, 63, 131);
+    display: block;
+  }
+
+  .content-wrapper img {
+    border: 1px solid #000;
+  }
+</style>
+
+<body>
+  <main class="wrapper">
+    <div class="webkit">
+      <div class="outer">
+        <!-- Main table start here -->
+        <table style="border-collapse: collapse; width: 100%">
+          <!-- Header Row -->
+          <tr>
+            <td class="header-row">
+              <table style="border-collapse: collapse; width: 100%">
+                <tr>
+                  <td style="
                         width: 40%;
                         padding: 10px;
                         text-shadow: 3px 2px tomato;
-                      "
-                    >
-                      <h1>
-                        Shoes
-                        <span style="color: #40bcf0">Newsletter</span>
-                      </h1>
-                    </td>
-                    <td
-                      style="
+                      ">
+                    <h1>
+                      Shoes
+                      <span style="color: #40bcf0">Newsletter</span>
+                    </h1>
+                  </td>
+                  <td style="
                         width: 60%;
                         font-weight: bold;
                         text-align: right;
                         padding-right: 15px;
                         color: #0857a0;
-                      "
-                    >
-                      <p>15% Discount On Eid Festible!!</p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+                      ">
+                    <p>15% Discount On Eid Festible!!</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
 
-            <!-- Cover Picture -->
-            <tr>
-              <td>
-                <table style="border-collapse: collapse; width: 100%">
-                  <tr>
-                    <td style="padding: 10px">
-                      <table style="border-collapse: collapse; width: 100%">
-                        <tr>
-                          <!-- left side -->
-                          <td
-                            style="
+          <!-- Cover Picture -->
+          <tr>
+            <td>
+              <table style="border-collapse: collapse; width: 100%">
+                <tr>
+                  <td style="padding: 10px">
+                    <table style="border-collapse: collapse; width: 100%">
+                      <tr>
+                        <!-- left side -->
+                        <td style="
                               background-image: url(image/coverpic1.jpg);
                               width: 400px;
                               height: 310px;
                               margin-top: 20px;
-                            "
-                          >
-                            <p class="percentlogo">
-                              15%<sup style="font-size: 35px">Off</sup>
-                            </p>
-                          </td>
-                          <!-- Right side -->
-                          <td style="padding-left: 10px">
-                            <h4 class="sum_classic">SUMMER CLASSIC</h4>
-                            <p style="margin-top: 20px">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Vel, assumenda nisi. Sapiente molestiae
-                              ducimus aliquam sequi omnis debitis ipsum!
-                            </p>
-                            <button><a href="#">See Details &rang;</a></button>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+                            ">
+                          <p class="percentlogo">
+                            15%<sup style="font-size: 35px">Off</sup>
+                          </p>
+                        </td>
+                        <!-- Right side -->
+                        <td style="padding-left: 10px">
+                          <h4 class="sum_classic">SUMMER CLASSIC</h4>
+                          <p style="margin-top: 20px">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Vel, assumenda nisi. Sapiente molestiae
+                            ducimus aliquam sequi omnis debitis ipsum!
+                          </p>
+                          <button><a href="#">See Details &rang;</a></button>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
 
-            <!-- Content part -->
-          </table>
-        </div>
+          <!-- Content part -->
+
+
+          <tr>
+            <td style="padding: 20px 30px">
+              <table style="border-collapse: collapse; width: 100%">
+                <!-- Top Content Row -->
+                <tr style="display: block">
+                  <td style="padding-right: 15px;">
+                    <table style="border-collapse: collapse; width: 100%">
+                      <tr>
+                        <td class="content-wrapper">
+                          <img src="image/shoe1.jpg" alt="Shoes 1" width="100%" />
+                          <h2>Model - DX50</h2>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Voluptas error nam dolore,
+                            reiciendis.
+                          </p>
+                          <a href="#">See Details...</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td style="padding-left: 15px">
+                    <table style="border-collapse: collapse; width: 100%">
+                      <tr>
+                        <td class="content-wrapper">
+                          <img src="image/shoe2.jpg" alt="shoes 2" width="100%" />
+                          <h2>Model-MZ05</h2>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Voluptas error nam dolore,
+                            reiciendis.
+                          </p>
+                          <a href="#">See Details...</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- Bottom Content Row -->
+                <tr style="padding-top: 25px; display: block;">
+                  <td style="padding-right: 15px">
+                    <table style="border-collapse: collapse; width: 100%">
+                      <tr>
+                        <td class="content-wrapper">
+                          <img src="image/shoe4.jpg" alt="Shoes 4" width="100%" />
+                          <h2>Model - DD55</h2>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Voluptas error nam dolore,
+                            reiciendis.
+                          </p>
+                          <a href="#">See Details...</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td style="padding-left: 15px">
+                    <table style="border-collapse: collapse; width: 100%">
+                      <tr>
+                        <td class="content-wrapper">
+                          <img src="image/shoes3.jpg" alt="shoes 3" width="100%" />
+                          <h2>Model-KX11</h2>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Voluptas error nam dolore,
+                            reiciendis.
+                          </p>
+                          <a href="#">See Details...</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+
+
+        </table>
       </div>
-    </main>
-  </body>
+    </div>
+  </main>
+</body>
+
 </html>
